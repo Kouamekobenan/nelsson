@@ -1,13 +1,170 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .globalColor{
+    @apply bg-gray-950
+  }
+  .Ctext{
+    @apply text-white 
+  }
+  .Gtit{
+    @apply text-blue-700 text-2xl md:text-3xl font-serif font-bold uppercase
+  }
+  .Stit{
+    @apply text-2xl text-blue-400 font-bold font-serif
+  }
+  
+  .Cbutton{
+    @apply bg-orange-500 hover:bg-orange-300 text-white cursor-pointer rounded-lg h-11
+    flex flex-col justify-center duration-200 px-3 font-serif font-bold text-2xl
+  }
+  .Sbutton{
+    @apply flex flex-col justify-center border-4 border-gray-300 hover:bg-slate-800 px-3
+    cursor-pointer duration-200 font-serif font-bold rounded-lg text-2xl h-11
+  }
+  .Over{
+    @apply   hover:border-b-4 hover:border-b-white duration-500 font-serif
+  }
+  .Over_icon{
+    @apply border-4 border-white rounded-full cursor-pointer p-1
+     hover:bg-orange-100 duration-500 text-2xl md:text-3xl bg-white text-orange-500
+  }
+  .Inputs{
+    @apply rounded-sm text-center md:w-96 h-10 text-2xl text-black
+  }
+  .btn_over{
+    @apply hover:scale-105 duration-700 hover:shadow-2xl hover:shadow-orange-400
+  }
+  
+}
+.container{
+  margin: 0 auto;
+}
+.douze{
+  
+  animation: anim 3s infinite;
+}
+@keyframes anim {
+  0%{
+    color: white;
+  }
+  50%{
+    color: orange;
+  }
+  100%{
+    color: orangered;
+  }
+  
+}
+.imgs{
+  height: 500px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dispo{
+  animation:disp 3s infinite;
+  transition: 2s all;
+}
+@keyframes disp {
+  0%{
+    background-color: black;
+  }
+  50%{
+    background-color:white;
+    color: black;
+  }
+  100%{
+    background-color: orange;
+  }
+}
+
+.content__text{
+    margin-left: 20%;
+    transform: translate(-50%, -50%);
+    height: 56px;
+    padding:0 40px;
+    overflow: hidden;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFF;
+    font-weight: 900;
+    opacity: 0.7;
+}
+.Logiciel{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+}
+.Logiciel:first-child{
+    animation: anime 5s infinite;
+}
+#invit{
+    color: orange;
+}
+#cv{
+    color: #fff;
+}
+#servi{
+    color: greenyellow;
+}
+
+@keyframes anime {
+    0%{
+        margin-top: 0;
+    }
+    50%{
+        margin-top:-120px;
+    }
+    80%{
+        margin-top: -180px;
+    }
+    
+}
+.cercle{
+  animation: circle 5s infinite;
+}
+
+@keyframes circle{
+  0%{
+    border-left-color: rgb(60, 0, 255);
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+
+  }
+  25%{
+    border-top-color: rgb(60, 0, 255);
+    border-right-color: white;
+    border-bottom-color: white;
+     border-right-color: white;
+  }
+  75%{
+    border-right-color: rgb(60, 0, 255);
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+  }
+  100%{
+    border-bottom-color: rgb(60, 0, 255);
+     border-right-color: white;
+    border-top-color: white;
+    border-right-color: white;
+  }
+}
+.Opacity{
+  opacity: 1;
+  animation: Opacite 5s ;
+}
+
+@keyframes Opacite{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.6;
+  }
+  100%{
+    opacity: 1;
+  }
 }
