@@ -59,7 +59,8 @@ function What() {
         <div className="Blog flex flex-col gap-4 md:grid md:grid-cols-3 p-4">
             {
                 data.map((datas)=>(
-                    <div className="flex flex-col gap-3 border-2 rounded-xl hover:scale-105 hover:shadow-2xl hover:shadow-orange-400
+                    <div className="flex flex-col gap-3 border-2 rounded-xl hover:scale-105 hover:shadow-2xl 
+                    hover:shadow-orange-400 shadow-sm shadow-orange-400
                      border-gray-500 p-3 hover:bg-gray-500 duration-700 cursor-pointer  " key={datas.id}>
                         <span className="icon w-9 text-center flex justify-center text-orange-500 font-bold
                         flex-col rounded-full p-1 bg-slate-700 text-2xl items-center">{datas.icon}</span>

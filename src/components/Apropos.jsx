@@ -7,8 +7,9 @@ function Apropos() {
   return (
     <div className="container globalColor Ctext p-4 flex flex-col md:grid  md:grid-cols-2 ">
         <div className="fixed flex justify-center items-center right-5 bottom-5 
-      cursor-pointer w-12 h-10 p-2 bg-blue-500 rounded-full text-white font-bold text-2xl"><a href="#"><GoArrowUp /></a></div>
-        <div className="">
+      cursor-pointer w-12 h-10 p-2 bg-blue-500 rounded-full text-white font-bold text-2xl">
+        <a href="#"><GoArrowUp /></a></div>
+        <div className=" flex flex-col justify-center items-center">
             <img src={img} alt="" className="cercle border-8 rounded-full btn_over bg-orange-500 hover:shadow-2xl hover:shadow-orange-400" />
         </div>
         <div className="Opacity text-justify flex flex-col 

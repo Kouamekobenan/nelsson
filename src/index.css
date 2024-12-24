@@ -39,11 +39,11 @@
   }
   
 }
+
 .container{
-  margin: 0 auto;
+  margin:0 auto;
 }
 .douze{
-  
   animation: anim 3s infinite;
 }
 @keyframes anim {

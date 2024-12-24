@@ -16,7 +16,7 @@ function Education() {
               <span className="Stit text-white">Front end</span>
               <span className=" flex">
                 <small className="w-10/12 bg-blue-400 h-6"></small>
-                <small className="bg-white h-6 w-2/12 flex justify-end text-black font-bold text-xl">90%</small>
+                <small className="bg-white h-6 w-2/12 flex justify-end text-black font-bold text-xl"></small>
               </span>
 
               </div>
@@ -24,7 +24,7 @@ function Education() {
               <span className="Stit text-white">React js</span>
               <span className=" flex">
                 <small className="w-9/12 bg-blue-400 h-6"></small>
-                <small className="bg-white h-6 w-3/12 flex justify-end font-bold text-black text-xl">70%</small>
+                <small className="bg-white h-6 w-3/12 flex justify-end font-bold text-black text-xl"></small>
               </span>
 
               </div>
@@ -32,7 +32,7 @@ function Education() {
               <span className="Stit text-white">Electron js</span>
               <span className=" flex">
                 <small className="w-8/12 bg-blue-400 h-6"></small>
-                <small className="bg-white h-6 w-4/12 font-bold flex justify-end text-black text-xl">60%</small>
+                <small className="bg-white h-6 w-4/12 font-bold flex justify-end text-black text-xl"></small>
               </span>
 
               </div>
@@ -40,7 +40,7 @@ function Education() {
               <span className="Stit text-white">Back end</span>
               <span className=" flex">
                 <small className="w-7/12 bg-blue-400 h-6"></small>
-                <small className="bg-white h-6 w-5/12 flex justify-end font-bold text-black text-xl">50%</small>
+                <small className="bg-white h-6 w-5/12 flex justify-end font-bold text-black text-xl"></small>
               </span>
 
               </div>
@@ -48,7 +48,7 @@ function Education() {
               <span className="Stit text-white">Express js</span>
               <span className=" flex">
                 <small className="w-6/12 bg-blue-400 h-6"></small>
-                <small className="bg-white h-6 w-6/12 flex justify-end font-bold text-black text-xl"> 40%</small>
+                <small className="bg-white h-6 w-6/12 flex justify-end font-bold text-black text-xl"> </small>
               </span>
 
               </div>
@@ -56,7 +56,7 @@ function Education() {
               <span className="Stit text-white">Mysql</span>
               <span className=" flex">
                 <small className="w-5/12 bg-blue-400 h-6"></small>
-                <small className="bg-white h-6 w-7/12 flex justify-end font-bold text-black text-xl">30%</small>
+                <small className="bg-white h-6 w-7/12 flex justify-end font-bold text-black text-xl"></small>
               </span>
 
               </div>

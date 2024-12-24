@@ -13,7 +13,7 @@ function Home() {
       <div className="fixed flex justify-center items-center right-5 bottom-5 
       cursor-pointer w-12 h-10 p-2 bg-blue-500 rounded-full text-white font-bold text-2xl"><a href="#"><GoArrowUp /></a></div>
      <About/>
-     <div className="flex justify-center  ">
+     <div className="flex justify-center">
       <span className="bg-gray-700 h-1 w-1/2 rounded-e-full"></span>
       </div>
      <What/>

@@ -4,7 +4,7 @@ import imgs from '../../images/meet.png'
 function Contact() {
   return (
     <div className="container">
-      <div className="flex flex-col justify-center  md:flex-row-reverse items-center gap-4">
+      <div className="flex flex-col justify-center shadow-2xl shadow-zinc-600  md:flex-row-reverse items-center gap-4">
         <section className="Stit relative text-center ">
           <span className="uppercase">Rendre en contact avec moi</span>
           <span className="">
